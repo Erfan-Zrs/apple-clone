@@ -1,7 +1,13 @@
+import Navbar from "./components/navbar/Navbar";
+import Hero from "./components/hero/Hero";
+import Highlights from "./components/highlights/Highlights";
+
 export default function Home() {
   return (
-    <>
-      <h1 className="text-blue-600 text-2xl">hello world</h1>
-    </>
+    <main>
+      <Navbar />
+      <Hero />
+      <Highlights />
+    </main>
   );
 }
